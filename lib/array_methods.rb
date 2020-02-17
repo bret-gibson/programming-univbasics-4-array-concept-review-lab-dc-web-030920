@@ -13,8 +13,8 @@ def find_max_value(array)
     if array[index] > numToCompare
       numToCompare = array[index]
     end
-    return numToCompare
   end
+  return numToCompare
 end
 
 def find_min_value(array)
