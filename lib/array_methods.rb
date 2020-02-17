@@ -9,10 +9,13 @@ end
 
 def find_max_value(array)
   array.length.times do |index|
-    numToCompare = array[index]
+    counter = 0
+    numToCompare = array[counter]
     if numToCompare > array[index]
-      greatestNum = numToCompare
+      return numToCompare;
     end
+  else
+    counter += 1
   end
 end
 
