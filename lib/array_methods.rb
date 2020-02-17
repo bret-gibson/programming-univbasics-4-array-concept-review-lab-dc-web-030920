@@ -11,7 +11,7 @@ def find_max_value(array)
   array.length.times do |index|
     numToCompare = array[index]
     if numToCompare > array[index]
-      return numToCompare
+      greatestNum = numToCompare
     end
   end
 end
@@ -19,3 +19,13 @@ end
 def find_min_value(array)
   # Add your solution here
 end
+
+
+# [1,2,3,4]
+# numToCompare = 1
+# array[index] = 1
+# numToCompare > array[index]
+# ==== FALSE
+#
+#
+
