@@ -12,10 +12,9 @@ def find_max_value(array)
     counter = 0
     numToCompare = array[counter]
     if numToCompare > array[index]
-      return numToCompare;
+      greatestVal = numToCompare;
+      counter += 1
     end
-  else if
-    counter += 1
   end
 end
 
