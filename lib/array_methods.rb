@@ -27,12 +27,3 @@ def find_min_value(array)
   return numToCompare
 end
 
-
-# [1,2,3,4]
-# numToCompare = 1
-# array[index] = 1
-# numToCompare > array[index]
-# ==== FALSE
-#
-#
-
