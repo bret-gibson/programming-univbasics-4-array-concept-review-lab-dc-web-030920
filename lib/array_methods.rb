@@ -8,9 +8,8 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
+  numToCompare = array[0]
   array.length.times do |index|
-    counter = 0
-    numToCompare = array[counter]
     if numToCompare > array[index]
       greatestVal = numToCompare;
       counter += 1
