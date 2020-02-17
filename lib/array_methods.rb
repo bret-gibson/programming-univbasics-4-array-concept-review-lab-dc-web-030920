@@ -14,7 +14,7 @@ def find_max_value(array)
     if numToCompare > array[index]
       return numToCompare;
     end
-  else
+  else if
     counter += 1
   end
 end
